@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, ArrowLeft, Send } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import kafIcon from "../assets/projectLogo/Kaf.logo.png";
+import kafIcon from "../assets/projectLogo/KAF.logo.png";
 
 
 export default function Navbar() {

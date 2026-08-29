@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import {  FaBehance   } from "@react-icons/all-files/fa/FaBehance";
 import {  FaTwitter    } from "@react-icons/all-files/fa/FaTwitter";
 import {  FaFacebook   } from "@react-icons/all-files/fa/FaFacebook";
-import kafIcon from "../assets/projectLogo/Kaf.logo.png";
+import kafIcon from "../assets/projectLogo/KAF.logo.png";
 
 
 export default function Footer() {
