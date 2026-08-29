@@ -7,7 +7,7 @@ import tharwahLogo from "../assets/projectLogo/ثروة.jpeg";
 import superGoLogo from "../assets/projectLogo/سوبر قو ديلفري.jpeg";
 import waraqNakhaLogo from "../assets/projectLogo/ورق ونكهة.jpeg";
 import nahajLogo from "../assets/projectLogo/نهج.png";
-import kafProjectLogo from "../assets/projectLogo/ايقونة-كاف.png";
+// import kafProjectLogo from "../assets/projectLogo/ايقونة-كاف.png";
 import KohliMaaBijLogo from "../assets/projectLogo/كحلي مع بيج.png";
 import BloomLogo from "../assets/projectLogo/بلوم.png";
 import BakathirBandLogo from "../assets/projectLogo/Bakathir Band.png";
@@ -164,32 +164,31 @@ export default function Projects() {
             </div>
           </div>
         );
-
-      case "kaf-website":
-        return (
-          <div className="relative w-full h-full bg-gradient-to-br from-purple-600 to-dark-purple flex flex-col justify-between p-6 overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
-            <div className="flex justify-between items-center z-10">
-              <span className="text-[10px] font-bold bg-primary-purple/35 text-white border border-primary-purple/35 px-2.5 py-1 rounded-full">الموقع الرسمي</span>
-              <span className="text-white font-bold text-xs">KAF </span>
-            </div>
+      // case "kaf-website":
+      //   return (
+      //     <div className="relative w-full h-full bg-gradient-to-br from-purple-600 to-dark-purple flex flex-col justify-between p-6 overflow-hidden">
+      //       <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
+      //       <div className="flex justify-between items-center z-10">
+      //         <span className="text-[10px] font-bold bg-primary-purple/35 text-white border border-primary-purple/35 px-2.5 py-1 rounded-full">الموقع الرسمي</span>
+      //         <span className="text-white font-bold text-xs">KAF </span>
+      //       </div>
             
-            <div className="my-auto flex flex-col items-center justify-center z-10">
-              {/* <div className="w-20 h-20 bg-primary-purple rounded-2xl flex items-center justify-center text-white text-4xl font-extrabold shadow-xl shadow-primary-purple/30 transition-transform hover:scale-105">
-                ك
-              </div> */}
-              <div className="w-20 h-20 bg-white/90 backdrop-blur-md border-4 border-dark-purple rounded-full flex items-center justify-center shadow-lg relative">
-                <img className="w-full h-full object-cover rounded-full" src={kafProjectLogo} alt="شعار KAF" />
-              </div>
-              {/* <span className="text-[10px] font-mono text-purple-200 font-bold tracking-widest mt-2">DIGITAL official</span> */}
-            </div>
+      //       <div className="my-auto flex flex-col items-center justify-center z-10">
+      //         {/* <div className="w-20 h-20 bg-primary-purple rounded-2xl flex items-center justify-center text-white text-4xl font-extrabold shadow-xl shadow-primary-purple/30 transition-transform hover:scale-105">
+      //           ك
+      //         </div> */}
+      //         <div className="w-20 h-20 bg-white/90 backdrop-blur-md border-4 border-dark-purple rounded-full flex items-center justify-center shadow-lg relative">
+      //           <img className="w-full h-full object-cover rounded-full" src={kafProjectLogo} alt="شعار KAF" />
+      //         </div>
+      //         {/* <span className="text-[10px] font-mono text-purple-200 font-bold tracking-widest mt-2">DIGITAL official</span> */}
+      //       </div>
 
-            <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
-              <span>تجربة تفاعلية وبصرية فائقة</span>
-              {/* <span>سرعة ١٠٠/١٠٠</span> */}
-            </div>
-          </div>
-        );
+      //       <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
+      //         <span>تجربة تفاعلية وبصرية فائقة</span>
+      //         {/* <span>سرعة ١٠٠/١٠٠</span> */}
+      //       </div>
+      //     </div>
+      //   );
       case "Kohli-maa-bij":
         return (
           <div className="relative w-full h-full bg-gradient-to-br from-[#c9ac86] to-[#744931] flex flex-col justify-between p-6 overflow-hidden">
