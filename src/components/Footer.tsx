@@ -1,15 +1,20 @@
 import React from "react";
 import { ArrowUp, Mail, Phone, Linkedin, Instagram, ExternalLink, Award } from "lucide-react";
 import { motion } from "motion/react";
+import {  FaBehance   } from "@react-icons/all-files/fa/FaBehance";
+import {  FaTwitter    } from "@react-icons/all-files/fa/FaTwitter";
+import {  FaFacebook   } from "@react-icons/all-files/fa/FaFacebook";
 
 export default function Footer() {
   const socialLinks = [
-    { label: "Behance", href: "https://behance.net", icon: ExternalLink },
+    { label: "x", href: "https://x.com/KAF_0fficial", icon: FaTwitter  },
+    { label: "Behance", href: "https://www.behance.net/9ab6a64f", icon: FaBehance },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/kaf-digital-office-88aa4b422/ar", icon: Linkedin },
     { label: "Instagram", href: "https://www.instagram.com/kaf.digita0fficial?igsh=NGJ0NGdyNzVtcmN4", icon: Instagram },
+    { label: "Facebook", href: "https://www.facebook.com/share/1c7ZqfBksu/", icon: FaFacebook },
   ];
 
-  const handleScrollToTop = () => {
+  const handleScrollToTop = () => {``
     window.scrollTo({
       top: 0,
       behavior: "smooth"
@@ -47,8 +52,8 @@ export default function Footer() {
               onClick={(e) => handleScrollToSection(e, "hero")}
               className="inline-flex items-center gap-3 focus:outline-none"
             >
-              <div className="w-10 h-10 bg-primary-purple rounded-xl flex items-center justify-center text-white font-bold text-xl">
-                ك
+              <div className="w-10 h-10  rounded-xl flex items-center justify-center text-white font-bold text-xl">
+                  <img src="src\assets\projectLogo\KAF.logo.png"alt="Kaf Logo"/>
               </div>
               <div>
                 <span className="font-sans font-extrabold text-xl text-white tracking-tight">

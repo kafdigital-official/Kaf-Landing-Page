@@ -47,7 +47,7 @@ export default function Services() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-sm font-bold text-primary-purple bg-soft-purple px-4 py-1.5 rounded-full inline-block mb-3">
+          <span className="text-sm font-bold text-primary-purple bg-soft-purple px-4 py-1.5 rounded-md inline-block mb-3">
             خدماتنا الرقمية
           </span>
           <h2 className="font-sans font-extrabold text-3xl sm:text-4xl text-dark-purple leading-tight mb-4">

@@ -6,8 +6,13 @@ import { Project } from "../types";
 import tharwahLogo from "../assets/projectLogo/ثروة.jpeg";
 import superGoLogo from "../assets/projectLogo/سوبر قو ديلفري.jpeg";
 import waraqNakhaLogo from "../assets/projectLogo/ورق ونكهة.jpeg";
-import nahajLogo from "../assets/projectLogo/نهج.jpeg";
+import nahajLogo from "../assets/projectLogo/نهج.png";
 import kafProjectLogo from "../assets/projectLogo/ايقونة-كاف.png";
+import KohliMaaBijLogo from "../assets/projectLogo/كحلي مع بيج.png";
+import BloomLogo from "../assets/projectLogo/بلوم.png";
+import BakathirBandLogo from "../assets/projectLogo/Bakathir Band.png";
+import AlHusseinSoftLogo from "../assets/projectLogo/Al Hussein Soft.png";
+
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -45,8 +50,8 @@ export default function Projects() {
           <div className="relative w-full h-full bg-gradient-to-br from-green-300 to-green-900 flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] opacity-10"></div>
             <div className="flex justify-between items-center z-10">
-              <span className="text-[10px] font-bold bg-white/20 text-white backdrop-blur-md px-2.5 py-1 rounded-full">تطبيق أطفال مالي</span>
-              <span className="text-white font-bold text-xs">ثروة ⭐</span>
+              <span className="text-[10px] font-bold bg-white/20 text-white backdrop-blur-md px-2.5 py-1 rounded-md">تطبيق أطفال مالي</span>
+              <span className="text-white font-bold text-xs">ثروة</span>
             </div>
             
             {/* Visual piggybank & coin representation */}
@@ -64,7 +69,7 @@ export default function Projects() {
 
             <div className="flex justify-between items-center text-[9px] text-white/70 z-10">
               <span>تحت إشراف ولي الأمر</span>
-              <span>معدل نمو ٨٥٪</span>
+              {/* <span>معدل نمو ٨٥٪</span> */}
             </div>
           </div>
         );
@@ -73,8 +78,8 @@ export default function Projects() {
           <div className="relative w-full h-full bg-gradient-to-br from-sky-300 to-sky-600 flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-black/10 z-0"></div>
             <div className="flex justify-between items-center z-10">
-              <span className="text-[10px] font-bold bg-black/30 text-white backdrop-blur-md px-2.5 py-1 rounded-full">هوية سرعة البرق</span>
-              <span className="text-white font-bold text-xs">SUPER GO ⚡</span>
+              <span className="text-[10px] font-bold bg-black/30 text-white backdrop-blur-md px-2.5 py-1 rounded-md">هوية سرعة البرق</span>
+              <span className="text-white font-bold text-xs">SUPER GO </span>
             </div>
             
             <div className="my-auto flex flex-col items-center justify-center z-10">
@@ -93,7 +98,7 @@ export default function Projects() {
 
             <div className="flex justify-between items-center text-[9px] text-white/95 z-10 font-bold">
               <span>توصيل حيوي قوي</span>
-              <span>١٢٠٪ تحميل إضافي</span>
+              {/* <span>١٢٠٪ تحميل إضافي</span> */}
             </div>
           </div>
         );
@@ -102,8 +107,8 @@ export default function Projects() {
           <div className="relative w-full h-full bg-gradient-to-br from-emerald-200 to-teal-800 flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute inset-0 bg-black/10 z-0"></div>
             <div className="flex justify-between items-center z-10">
-              <span className="text-[10px] font-bold bg-white/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-1 rounded-full">علامة أغذية فاخرة</span>
-              <span className="text-white font-bold text-xs">ورق نكهة 🍃</span>
+              <span className="text-[10px] font-bold bg-white/10 text-white border border-emerald-500/20 px-2.5 py-1 rounded-full">علامة أغذية فاخرة</span>
+              <span className="text-white font-bold text-xs">ورق نكهة </span>
             </div>
             
             <div className="my-auto flex flex-col items-center justify-center z-10">
@@ -119,7 +124,7 @@ export default function Projects() {
 
             <div className="flex justify-between items-center text-[9px] text-white/80 z-10">
               <span>هوية تسويقية مبهرة</span>
-              <span>٧٥٪ زيادة بالمبيعات</span>
+              {/* <span>٧٥٪ زيادة بالمبيعات</span> */}
             </div>
           </div>
         );
@@ -129,7 +134,7 @@ export default function Projects() {
             <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:18px_18px] opacity-10"></div>
             <div className="flex justify-between items-center z-10">
               <span className="text-[10px] font-bold bg-white/20 text-white backdrop-blur-md px-2.5 py-1 rounded-full">منصة استشارية ذكية</span>
-              <span className="text-white font-bold text-xs">نهج 🗺️</span>
+              <span className="text-white font-bold text-xs">نهج </span>
             </div>
 
             <div className="my-auto flex flex-col items-center justify-center z-10 relative">
@@ -143,8 +148,8 @@ export default function Projects() {
                   </div>
                 </div> */}
                 {/* <span className="absolute -top-1 -right-1 text-lg">🧭</span> */}
-                <div className="w-full h-full rounded-full bg-emerald-900/60 flex items-center justify-center">
-                    <img className="w-full h-full object-cover rounded-full" src={nahajLogo} alt="شعار نهج" />
+                <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
+                    <img className="w-full h-full object-cover p-3" src={nahajLogo} alt="شعار نهج" />
                 </div>
               </div>
               {/* <div className="mt-4 flex gap-1 bg-white/25 rounded-full px-3 py-1 text-[10px] text-white font-bold border border-white/10">
@@ -155,17 +160,18 @@ export default function Projects() {
 
             <div className="flex justify-between items-center text-[9px] text-white/70 z-10">
               <span>تقليل التشتت البصري</span>
-              <span>تحويل أسرع وأكثر سلاسة</span>
+              {/* <span>تحويل أسرع وأكثر سلاسة</span> */}
             </div>
           </div>
         );
+
       case "kaf-website":
         return (
           <div className="relative w-full h-full bg-gradient-to-br from-purple-600 to-dark-purple flex flex-col justify-between p-6 overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
             <div className="flex justify-between items-center z-10">
               <span className="text-[10px] font-bold bg-primary-purple/35 text-white border border-primary-purple/35 px-2.5 py-1 rounded-full">الموقع الرسمي</span>
-              <span className="text-white font-bold text-xs">KAF 🌐</span>
+              <span className="text-white font-bold text-xs">KAF </span>
             </div>
             
             <div className="my-auto flex flex-col items-center justify-center z-10">
@@ -180,7 +186,91 @@ export default function Projects() {
 
             <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
               <span>تجربة تفاعلية وبصرية فائقة</span>
-              <span>سرعة ١٠٠/١٠٠</span>
+              {/* <span>سرعة ١٠٠/١٠٠</span> */}
+            </div>
+          </div>
+        );
+      case "Kohli-maa-bij":
+        return (
+          <div className="relative w-full h-full bg-gradient-to-br from-[#c9ac86] to-[#744931] flex flex-col justify-between p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
+            <div className="flex justify-between items-center z-10">
+              <span className="text-[10px] font-bold bg-[#c9ac86]/35 text-white border border-[#c9ac86]/35 px-2.5 py-1 rounded-full"> متجر أثاث</span>
+              <span className="text-white font-bold text-xs">كحلي مع بيج </span>
+            </div>
+            
+            <div className="my-auto flex flex-col items-center justify-center z-10">
+              <div className="w-20 h-20 p-1 bg-white/90 backdrop-blur-md border-4 border-[#c9ac86] rounded-full flex items-center justify-center shadow-lg relative">
+                <img className="w-fit h-fit object-cover rounded-full" src={KohliMaaBijLogo} alt="شعار كحلي مع بيج" />
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
+              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>سرعة ١٠٠/١٠٠</span> */}
+            </div>
+          </div>
+        );
+      case "Bloom":
+        return (
+          <div className="relative w-full h-full bg-gradient-to-br from-[#d9ab08] to-[#876b05] flex flex-col justify-between p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
+            <div className="flex justify-between items-center z-10">
+              <span className="text-[10px] font-bold bg-[#d9ab08]/35 text-white border border-[#c9ac86]/35 px-2.5 py-1 rounded-full">تطبيق توصيل</span>
+              <span className="text-white font-bold text-xs">Bloom </span>
+            </div>
+            
+            <div className="my-auto flex flex-col items-center justify-center z-10">
+              <div className="w-20 h-20 p-1 bg-white/90 backdrop-blur-md border-4 border-[#224389] rounded-full flex items-center justify-center shadow-lg relative">
+                <img className="w-fit h-fit object-cover rounded-full" src={BloomLogo} alt="شعار كحلي مع بيج" />
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
+              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>سرعة ١٠٠/١٠٠</span> */}
+            </div>
+          </div>
+        );
+      case "Bakathir Band":
+        return (
+          <div className="relative w-full h-full bg-gradient-to-br from-[#b2b4b7] to-[#0d3643] flex flex-col justify-between p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
+            <div className="flex justify-between items-center z-10">
+              <span className="text-[10px] font-bold bg-[#265c6e]/35 text-white border border-[#c9ac86]/35 px-2.5 py-1 rounded-full">فرقة مسرحية</span>
+              <span className="text-white font-bold text-xs">فرقة باكثير للمسرح الأدبي</span>
+            </div>
+            
+            <div className="my-auto flex flex-col items-center justify-center z-10">
+              <div className="w-20 h-20 p-2 bg-white/30 backdrop-blur-md border-4 border-[#265c6e] rounded-full flex items-center justify-center shadow-lg relative">
+                <img className="w-fit h-full object-cover" src={BakathirBandLogo} alt="شعار كحلي مع بيج" />
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
+              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>سرعة ١٠٠/١٠٠</span> */}
+            </div>
+          </div>
+        );
+      case "Al Hussein Soft":
+        return (
+          <div className="relative w-full h-full bg-gradient-to-br from-[#2d599291] to-[#2d5992] flex flex-col justify-between p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
+            <div className="flex justify-between items-center z-10">
+              <span className="text-[10px] font-bold bg-[#265c6e]/35 text-white border border-[#c9ac86]/35 px-2.5 py-1 rounded-full"> نظام محاسبي</span>
+              <span className="text-white font-bold text-xs">الحسين سوفت</span>
+            </div>
+            
+            <div className="my-auto flex flex-col items-center justify-center z-10">
+              <div className="w-20 h-20 p-2 bg-white/90 backdrop-blur-md border-4 border-[#265c6e] rounded-full flex items-center justify-center shadow-lg relative">
+                <img className="w-fit h-full object-cover" src={AlHusseinSoftLogo} alt="شعار كحلي مع بيج" />
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
+              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>سرعة ١٠٠/١٠٠</span> */}
             </div>
           </div>
         );
@@ -199,7 +289,7 @@ export default function Projects() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="text-right">
-            <span className="text-sm font-bold text-primary-purple bg-soft-purple px-4 py-1.5 rounded-full inline-block mb-3">
+            <span className="text-sm font-bold text-primary-purple bg-soft-purple px-4 py-1.5 rounded-md inline-block mb-3">
               دراسات الحالات والأعمال
             </span>
             <h2 className="font-sans font-extrabold text-3xl sm:text-4xl text-dark-purple leading-tight mb-3">

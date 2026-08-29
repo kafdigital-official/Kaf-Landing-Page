@@ -51,7 +51,7 @@ export default function AboutUs() {
           
           {/* Right side: Strong Copywriting */}
           <div className="lg:col-span-6 text-right">
-            <span className="text-sm font-bold text-primary-purple bg-soft-purple px-4 py-1.5 rounded-full inline-block mb-4">
+            <span className="text-sm font-bold text-primary-purple bg-soft-purple px-4 py-1.5 rounded-md inline-block mb-4">
               مكتبنا الرقمي
             </span>
             <h2 className="font-sans font-extrabold text-3xl sm:text-4xl text-dark-purple leading-tight mb-6">

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, ArrowLeft, Send } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import kafIcon from "../assets/projectLogo/Kaf.png";
+// import kafIcon from "../assets/projectLogo/Kaf.logo.png";
+
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -81,8 +82,8 @@ export default function Navbar() {
             >
               {/* Elegant Custom SVG Logo for KAF representing creative geometry */}
               <div className="relative w-10 h-10  rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary-purple/20 transition-transform duration-300 group-hover:scale-105">
-                <img src={kafIcon} alt="شعار كاف" />
-                <div className="absolute -bottom-1 -left-1 w-3 h-3 bg-secondary-purple rounded-full border-2 border-white"></div>
+                <img src="src\assets\projectLogo\KAF.logo.png" alt="شعار كاف" />
+                {/* <div className="absolute -bottom-1 -left-1 w-3 h-3 bg-secondary-purple rounded-full border-2 border-white"></div> */}
               </div>
               <div className="flex flex-col">
                 <span className="font-sans font-bold text-xl tracking-tight text-dark-purple group-hover:text-primary-purple transition-colors">
@@ -174,8 +175,8 @@ export default function Navbar() {
             >
               <div className="p-6 border-b border-border-purple flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary-purple rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                    ك
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    <img src="src\assets\projectLogo\KAF.png" alt="" />
                   </div>
                   <span className="font-bold text-dark-purple">كاف ديجيتال</span>
                 </div>

@@ -41,16 +41,16 @@ export default function Hero() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 bg-soft-purple border border-primary-purple/20 px-4 py-1.5 rounded-full mb-6"
+              className="inline-flex items-center gap-2 bg-soft-purple border border-primary-purple/20 px-4 py-1.5 rounded-md mb-6"
             >
-              <span className="relative flex h-2 w-2">
+              {/* <span className="relative flex hس-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-              </span>
+              </span> */}
               <span className="text-xs md:text-sm font-semibold text-primary-purple">
                 متاحون لاستقبال مشاريع مختارة
               </span>
-              <Sparkles className="w-3 h-3 text-primary-purple" />
+              {/* <Sparkles className="w-3 h-3 text-primary-purple" /> */}
             </motion.div>
 
             {/* Core Value Proposition Heading */}
@@ -166,7 +166,7 @@ export default function Hero() {
                     {/* <span className="-mt-2 select-none">ك</span> */}
                     <img src={kafLogo} alt="شعار كاف" />
                     {/* Glowing point of visual energy */}
-                    <div className="absolute -bottom-1 -left-1 w-6 h-6 bg-secondary-purple rounded-full border-4 border-white shadow-md"></div>
+                    {/* <div className="absolute -bottom-1 -left-1 w-6 h-6 bg-secondary-purple rounded-full border-4 border-white shadow-md"></div> */}
                   </div>
                   
                   <h2 className="mt-6 font-bold text-2xl text-dark-purple">
@@ -179,7 +179,7 @@ export default function Hero() {
 
                 {/* Bottom Frame Stats Widget */}
                 <div className="relative z-10 bg-soft-purple/80 border border-primary-purple/10 p-3 rounded-2xl flex items-center justify-between text-xs font-semibold text-primary-purple">
-                  <span>🚀 نطلق الفكرة كأثر ملموس</span>
+                  <span>نطلق الفكرة كأثر ملموس</span>
                   <span className="bg-white px-2 py-0.5 rounded-md border border-primary-purple/15 text-[10px]">
                     100% جودة
                   </span>
@@ -188,9 +188,9 @@ export default function Hero() {
 
               {/* Absolute accessory cards */}
               <div className="absolute -right-6 top-12 z-20 bg-white border border-border-purple p-3 rounded-2xl shadow-lg flex items-center gap-3">
-                <div className="w-8 h-8 bg-amber-500/10 rounded-lg flex items-center justify-center text-amber-600">
+                {/* <div className="w-8 h-8 bg-amber-500/10 rounded-lg flex items-center justify-center text-amber-600">
                   ⚡
-                </div>
+                </div> */}
                 <div>
                   <h4 className="text-[11px] font-bold text-dark-purple leading-tight">هوية متميزة</h4>
                   <p className="text-[9px] text-secondary-text leading-none mt-0.5">تصميم يبرز هويتك</p>
@@ -198,9 +198,9 @@ export default function Hero() {
               </div>
 
               <div className="absolute -left-8 bottom-16 z-20 bg-white border border-border-purple p-3 rounded-2xl shadow-lg flex items-center gap-3">
-                <div className="w-8 h-8 bg-emerald-500/10 rounded-lg flex items-center justify-center text-emerald-600">
+                {/* <div className="w-8 h-8 bg-emerald-500/10 rounded-lg flex items-center justify-center text-emerald-600">
                   📱
-                </div>
+                </div> */}
                 <div>
                   <h4 className="text-[11px] font-bold text-dark-purple leading-tight">سهولة كاملة</h4>
                   <p className="text-[9px] text-secondary-text leading-none mt-0.5">رحلات مستخدم ذكية</p>
