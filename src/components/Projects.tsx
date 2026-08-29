@@ -12,6 +12,7 @@ import KohliMaaBijLogo from "../assets/projectLogo/كحلي مع بيج.png";
 import BloomLogo from "../assets/projectLogo/بلوم.png";
 import BakathirBandLogo from "../assets/projectLogo/Bakathir Band.png";
 import AlHusseinSoftLogo from "../assets/projectLogo/Al Hussein Soft.png";
+import KodfannLogo from "../assets/projectLogo/KodFann.png";
 
 
 export default function Projects() {
@@ -68,7 +69,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/70 z-10">
-              <span>تحت إشراف ولي الأمر</span>
+              {/* <span>تحت إشراف ولي الأمر</span> */}
               {/* <span>معدل نمو ٨٥٪</span> */}
             </div>
           </div>
@@ -97,7 +98,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/95 z-10 font-bold">
-              <span>توصيل حيوي قوي</span>
+              {/* <span>توصيل حيوي قوي</span> */}
               {/* <span>١٢٠٪ تحميل إضافي</span> */}
             </div>
           </div>
@@ -123,7 +124,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/80 z-10">
-              <span>هوية تسويقية مبهرة</span>
+              {/* <span>هوية تسويقية مبهرة</span> */}
               {/* <span>٧٥٪ زيادة بالمبيعات</span> */}
             </div>
           </div>
@@ -159,7 +160,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/70 z-10">
-              <span>تقليل التشتت البصري</span>
+              {/* <span>تقليل التشتت البصري</span> */}
               {/* <span>تحويل أسرع وأكثر سلاسة</span> */}
             </div>
           </div>
@@ -205,7 +206,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
-              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>تجربة تفاعلية وبصرية فائقة</span> */}
               {/* <span>سرعة ١٠٠/١٠٠</span> */}
             </div>
           </div>
@@ -226,7 +227,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
-              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>تجربة تفاعلية وبصرية فائقة</span> */}
               {/* <span>سرعة ١٠٠/١٠٠</span> */}
             </div>
           </div>
@@ -247,7 +248,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
-              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>تجربة تفاعلية وبصرية فائقة</span> */}
               {/* <span>سرعة ١٠٠/١٠٠</span> */}
             </div>
           </div>
@@ -268,7 +269,28 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
-              <span>تجربة تفاعلية وبصرية فائقة</span>
+              {/* <span>تجربة تفاعلية وبصرية فائقة</span> */}
+              {/* <span>سرعة ١٠٠/١٠٠</span> */}
+            </div>
+          </div>
+        );
+      case "kodfann":
+        return (
+          <div className="relative w-full h-full bg-gradient-to-br from-[#6b53c1c6] to-[#463486] flex flex-col justify-between p-6 overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(#5635c7_1px,transparent_1px)] [background-size:20px_20px] opacity-35"></div>
+            <div className="flex justify-between items-center z-10">
+              <span className="text-[10px] font-bold bg-[#6b53c1]/35 text-white border border-[#c9ac86]/35 px-2.5 py-1 rounded-full">منصة رقمية</span>
+              <span className="text-white font-bold text-xs">كود فن</span>
+            </div>
+            
+            <div className="my-auto flex flex-col items-center justify-center z-10">
+              <div className="w-20 h-20 p-2 bg-white/90 backdrop-blur-md border-4 border-[#3e2988] rounded-full flex items-center justify-center shadow-lg relative">
+                <img className="w-fit h-full object-cover" src={KodfannLogo} alt="شعار كود فن" />
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center text-[9px] text-white/60 z-10">
+              {/* <span>تجربة تفاعلية وبصرية فائقة</span> */}
               {/* <span>سرعة ١٠٠/١٠٠</span> */}
             </div>
           </div>

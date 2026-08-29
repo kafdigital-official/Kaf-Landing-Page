@@ -4,6 +4,8 @@ import { motion } from "motion/react";
 import {  FaBehance   } from "@react-icons/all-files/fa/FaBehance";
 import {  FaTwitter    } from "@react-icons/all-files/fa/FaTwitter";
 import {  FaFacebook   } from "@react-icons/all-files/fa/FaFacebook";
+import kafIcon from "../assets/projectLogo/Kaf.logo.png";
+
 
 export default function Footer() {
   const socialLinks = [
@@ -53,7 +55,7 @@ export default function Footer() {
               className="inline-flex items-center gap-3 focus:outline-none"
             >
               <div className="w-10 h-10  rounded-xl flex items-center justify-center text-white font-bold text-xl">
-                  <img src="src\assets\projectLogo\KAF.logo.png"alt="Kaf Logo"/>
+                  <img src={kafIcon} alt="Kaf Logo"/>
               </div>
               <div>
                 <span className="font-sans font-extrabold text-xl text-white tracking-tight">
