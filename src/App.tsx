@@ -17,6 +17,7 @@ import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import ProjectForm from "./components/ProjectForm";
 import Footer from "./components/Footer";
+import Packages from "./components/Packages";
 
 export default function App() {
   return (
@@ -48,6 +49,8 @@ export default function App() {
 
         {/* 9. True trust factors (عناصر الثقة الحقيقية) */}
         <TrustSection />
+        
+        <Packages />
 
         {/* 10. Partner Testimonials (آراء العملاء) */}
         {/* <Testimonials /> */}
